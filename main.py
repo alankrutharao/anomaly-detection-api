@@ -15,7 +15,7 @@ CORS(app)  # Enable CORS to allow React to communicate with Flask
 device = 0 if torch.cuda.is_available() else -1
 
 # Initialize the video classification pipeline
-pipe = pipeline("video-classification", model="rish13/videomae_4frames", device=device)
+pipe = pipeline("video-classification", model="Sathwik-kom/anomaly-detector-videomae10", device=device)
 
 def detect_anomalies_in_video(video_path):
     cap = cv2.VideoCapture(video_path)
