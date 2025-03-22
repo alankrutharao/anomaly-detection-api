@@ -7,7 +7,7 @@ from io import BytesIO
 from PIL import Image
 import torch
 from flask_cors import CORS  # Import Flask-CORS for handling cross-origin requests
-PORT = 10000
+
 app = Flask(__name__)
 CORS(app)  # Enable CORS to allow React to communicate with Flask
 
@@ -123,6 +123,3 @@ def upload_video():
         <input type="submit" value="Upload">
     </form>
     """
-
-if __name__ == "__main__":
-    app.run(debug=True,host="0.0.0.0",port=PORT)
