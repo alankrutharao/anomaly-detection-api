@@ -125,4 +125,4 @@ def upload_video():
     """
 
 if __name__ == "main":
-    app.run(debug=True)
+    app.run(debug=True,port=PORT)
