@@ -72,7 +72,6 @@ PyScreeze==1.0.1
 python-dateutil==2.9.0.post0
 pyttsx3==2.98
 pytweening==1.2.0
-pywin32==308
 regex==2024.11.6
 requests==2.32.3
 requests-oauthlib==2.0.0
