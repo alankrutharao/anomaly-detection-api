@@ -8,7 +8,7 @@ from PIL import Image
 import torch
 from flask_cors import CORS  # Import Flask-CORS for handling cross-origin requests
 
-app = Flask(name)
+app = Flask(__name__)
 CORS(app)  # Enable CORS to allow React to communicate with Flask
 
 # Check if CUDA (GPU) is available, otherwise use CPU
@@ -124,5 +124,5 @@ def upload_video():
     </form>
     """
 
-if name == "main":
+if __name__ == "main":
     app.run(debug=True)
