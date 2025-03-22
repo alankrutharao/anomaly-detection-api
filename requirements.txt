@@ -85,7 +85,6 @@ SQLAlchemy==2.0.36
 sympy==1.13.3
 tensorboard==2.12.3
 tensorboard-data-server==0.7.2
-tensorflow==2.12.1
 tensorflow-intel==2.12.1
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.4.0
